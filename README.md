@@ -26,19 +26,15 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-
 ## Code
 
-**Data**
-
+### Data
 Consists of sample EEG and spectrogram data
 
-**Preprocess**
+### Preprocess
+Code to perform data preprocessing such as noise filtering, and also contains feature extraction, converting EEG to spectrogram for training ResNet Model
 
-Consists code to perform data preprocessing such as noise filtering, and feature extraction
-
-**Model**
-
+### Model
 Contains code to train ResNet50 model on single GPU and also perform distributed training on multiple GPUs using DDP(Distributed Data Parallel) and Model Parallel Techniques
 
 
