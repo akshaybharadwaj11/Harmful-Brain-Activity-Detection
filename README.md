@@ -26,10 +26,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-## Code
+## Usage
 
 ### Data
-Consists of sample EEG and spectrogram data
+Consists of sample EEG and spectrogram data. The original dataset can be downloaded from [kaggle](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/data)
 
 ### Preprocess
 Code to perform data preprocessing such as noise filtering, and also contains feature extraction, converting EEG to spectrogram for training ResNet Model
