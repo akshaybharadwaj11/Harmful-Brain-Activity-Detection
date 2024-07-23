@@ -32,10 +32,10 @@ pip install -r requirements.txt
 Consists of sample EEG and spectrogram data. The original dataset can be downloaded from [kaggle](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/data)
 
 ### Preprocess
-Code to perform data preprocessing such as noise filtering, and also contains feature extraction, converting EEG to spectrogram for training ResNet Model
+Contains code to perform data preprocessing such as noise filtering, and feature extraction - converting EEG to spectrogram for training ResNet Model
 
 ### Model
-Contains code to train ResNet50 model on single GPU and also perform distributed training on multiple GPUs using DDP(Distributed Data Parallel) and Model Parallel Techniques
+Contains code to train a ResNet50 model on single GPU and also perform distributed training on multiple GPUs using DDP(Distributed Data Parallel) and Model Parallel Techniques
 
 
 
